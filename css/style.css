@@ -1,40 +1,38 @@
-:root{
-    // /* --blue: RGB(10, 75, 119); */
-    // /* --orange: RGB(249, 207, 210); */
-    // /* --teal:RGB(2, 126, 100) ;  */ /* teal darken 3 */
+// :root{
+//     // /* --blue: RGB(10, 75, 119); */
+//     // /* --orange: RGB(249, 207, 210); */
+//     // /* --teal:RGB(2, 126, 100) ;  */ /* teal darken 3 */
 
-    // --primary-color:#01579b ;
-    // --secondary-color: #00695c;
-    // --light-color: #e1f5fe;
-    // --font-color-primary: RGB(230, 241, 244);
-    // --font-color-secondary: rgb(255, 255, 255);
-    // --color-button: #ffccbc;
-    // --font-color-light:RGB(53, 23, 59);
-    --font-title: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    --font-text:Verdana, Geneva, Tahoma, sans-serif;
-}
+//     // --primary-color:#01579b ;
+//     // --secondary-color: #00695c;
+//     // --light-color: #e1f5fe;
+//     // --font-color-primary: RGB(230, 241, 244);
+//     // --font-color-secondary: rgb(255, 255, 255);
+//     // --color-button: #ffccbc;
+//     // --font-color-light:RGB(53, 23, 59);
+//     --font-title: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+//     --font-text:Verdana, Geneva, Tahoma, sans-serif;
+// }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// *{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
 
-body{
-    font-family: var(--font-text);
-}
+// body{
+//     font-family: var(--font-text);
+// }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: var(--font-title);
-}
+// h1, h2, h3, h4, h5, h6{
+//     font-family: var(--font-title);
+// }
 
-.light-button{
-    background-color:var(--color-button);
-    color: var(--font-color-light);
-}
-.card{
-    height: 30vh;
-}
+// .light-button{
+//     background-color:var(--color-button);
+//     color: var(--font-color-light);
+// }
+
 
 .container{
     padding-top: 40px;

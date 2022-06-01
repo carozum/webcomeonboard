@@ -40,3 +40,7 @@
   .info{
       background-color: var(--info);
   }
+  .card{
+    min-height: 31vh;
+    padding: 1rem;
+}
