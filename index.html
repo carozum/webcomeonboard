@@ -123,10 +123,10 @@
                         <div class="row">
                             <p class="col-md-6 text-md-end">
                                 <a href="#"
-                                    class="btn shadow btn-outline-dark border-0 primary mt-5 rounded-5 d-block text-center w-50 m-auto p-4">Calculateur</a>
+                                    class="btn shadow btn-outline-dark border-0 primary text-light mt-5 rounded-5 d-block text-center w-50 m-auto p-4">Calculateur</a>
                             </p>
                             <p class="col-md-6 text-md-start"><a href="#"
-                                    class="btn shadow btn-outline-dark border-0 rounded-5 warning mt-5 d-block text-center w-50 m-auto p-4">Contact</a>
+                                    class="btn shadow btn-outline-dark border-0 rounded-5 warning text-light mt-5 d-block text-center w-50 m-auto p-4">Contact</a>
                             </p>
                         </div>
                     </div>
@@ -137,16 +137,16 @@
 
     <main>
         <!-- calculateur -->
-        <div id="calculateurTitre" class="container-fluid bg-success bg-gradient text-light">
+        <div id="calculateurTitre" class="container-fluid primary text-light bg-gradient text-light">
             <div class="row py-5">
-                <h2 class="display-6 text-center">Estimez le cout de votre projet gratuitement et sans engagement.
+                <h2 class="display-6 text-center">Estimez le coût de votre projet gratuitement et sans engagement.
                 </h2>
 
             </div>
         </div>
 
         <!-- ************************************************** page 1 -->
-        <div id="page1" class="container text-dark h-75">
+        <div id="page1" class="container text-dark mb-5">
 
             <div class="row mt-3 pt-4">
                 <p class="text-center text-muted display-6">Votre devis en seulement 3 étapes</p>
@@ -171,17 +171,17 @@
             <div class="row">
                 <p id="oui" class="col-md-6 text-md-end">
                     <a href="#" onclick="return show('page2','page1');"
-                        class="btn shadow btn-outline-dark border-0 primary mt-3 rounded-5 d-block text-center w-50 m-auto p-4">OUI</a>
+                        class="btn shadow btn-outline-dark border-0 primary text-light mt-3 rounded-5 d-block text-center w-50 m-auto p-4">OUI</a>
                 </p>
                 <p id="non" class="col-md-6 text-md-start"><a href="#" onclick="return show('page2','page1');"
-                        class="btn shadow btn-outline-dark border-0 rounded-5 warning mt-3 d-block text-center w-50 m-auto p-4">NON</a>
+                        class="btn shadow btn-outline-dark border-0 rounded-5 warning text-light mt-3 d-block text-center w-50 m-auto p-4">NON</a>
                 </p>
             </div>
         </div>
 
 
         <!-- ********************************************************** page 2 -->
-        <div id="page2" style="display:none" class="h-75 container ">
+        <div id="page2" style="display:none" class="h-75 container mb-5">
             <div class="row mt-3 pt-4">
                 <p class="text-center text-muted display-6">lorem...</p>
             </div>
@@ -204,8 +204,63 @@
                 <div class="col-12">
                     <h2 class="display-6 text-center mb-4">Choisissez les prestations dont vous avez besoin</h2>
                 </div>
-                <div class="col-6 col-lg-3">
-                    <div class="card">
+                <!-- ***************************** gestion de projet -->
+                <div class="col-6 ">
+                    <div class="card p-1 p-lg-5 border-0 bg-light mt-2 mt-lg-1">
+                        <h3 class="card-title">Gestion de projet</h3>
+                        <form action="">
+                            <div class="form-group">
+
+                                <div class="form-check">
+
+                                    <label for="1" class="form-check-label">produit 1</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="2" class="form-check-label">produit 2</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="3" class="form-check-label">Produit 3</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="4" class="form-check-label">Produit 4</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- ********************** design -->
+                <div class="col-6 ">
+                    <div class="card p-lg-5 border-0 bg-light mt-2 mt-lg-1">
+                        <h3 class="card-title">Design</h3>
+                        <form action="">
+                            <div class="form-group">
+
+                                <div class="form-check">
+
+                                    <label for="5" class="form-check-label">Produit 5</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="6" class="form-check-label">Produit 6</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="7" class="form-check-label">Produit 7</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="8" class="form-check-label">Produit 8</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- ******************* visibilité Web -->
+                <div class="col-6 ">
+                    <div class="card p-lg-5 border-0 bg-light mt-2 mt-lg-1">
                         <h3 class="card-title">Visibilité Web</h3>
                         <form action="">
                             <div class="form-group">
@@ -236,12 +291,39 @@
                         </form>
                     </div>
                 </div>
+                <!-- ************************* communication -->
+                <div class="col-6 ">
+                    <div class="card p-lg-5 border-0 bg-light mt-2 mt-lg-1">
+                        <h3 class="card-title">Communication</h3>
+                        <form action="">
+                            <div class="form-group">
+
+                                <div class="form-check">
+
+                                    <label for="SEO" class="form-check-label">Référencement</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="SEA" class="form-check-label">E-publicité</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="RS" class="form-check-label">Réseaux sociaux</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <label for="write" class="form-check-label">Rédaction de contenu</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </section>
         </div>
 
         <!-- ********************************************************* page 3 -->
 
-        <div id="page3" style="display:none" class="container h-75">
+        <div id="page3" style="display:none" class="container h-75 mb-5">
 
             <div class="row mt-3 pt-4">
                 <p class="text-center text-muted display-6">...ipsum</p>
@@ -271,16 +353,16 @@
 
             </section>
 
-            <section class="row py-4">
+            <section class="row py-4 ">
                 <div class="col-12">
                     <form action="">
                         <label for="email" class="form-label">Entrez votre email pour garder votre estimation</label>
                         <input type="email" name="email" id="email" class="form-control" placeholder="Votre email">
-                        <a href="" id="recevoir" class="btn btn-danger my-2 d-block">Recevoir l'estimation</a>
+                        <a href="" id="recevoir" class="btn warning text-light my-2 d-block">Recevoir l'estimation</a>
                     </form>
                 </div>
                 <div class="col-6 text-center">
-                    <button id="contact" class="btn btn-secondary">Nous contacter</button>
+                    <button id="contact" class="btn primary text-light">Nous contacter</button>
                 </div>
                 <div class="col-6 text-center">
                     <button id="vider" class="btn btn-secondary"
