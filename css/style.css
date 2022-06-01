@@ -34,15 +34,14 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
-.top-menu{
-    background-color: var(--primary-color);
-    height: 10vh;
-    color: var(--font-color-primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+// .top-menu{
+//     background-color: var(--primary-color);
+//     height: 10vh;
+//     color: var(--font-color-primary);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
 
 .page-banner{
     display: flex;
