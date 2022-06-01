@@ -137,23 +137,27 @@
 
     <main>
         <!-- calculateur -->
-        <div id="calculateurTitre" class="container bg-success text-light">
-            <div class="row py-4">
-                <h2 class="display-6 text-center mb-4">Estimez le cout de votre projet gratuitement et sans engagement.
+        <div id="calculateurTitre" class="container-fluid bg-success bg-gradient text-light">
+            <div class="row py-5">
+                <h2 class="display-6 text-center">Estimez le cout de votre projet gratuitement et sans engagement.
                 </h2>
 
             </div>
         </div>
 
-        <!-- page 1 -->
+        <!-- ************************************************** page 1 -->
         <div id="page1" class="container text-dark h-75">
 
-            <div class="row mt-5">
+            <div class="row mt-3 pt-4">
+                <p class="text-center text-muted display-6">Votre devis en seulement 3 étapes</p>
+            </div>
+
+            <div class="row mt-2">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <p class="text-center mb-2">Etape 1/3</p>
+                    <p class="text-center mb-2 text-muted">Etape 1/3</p>
                 </div>
-                <div class="col-3"><a class="btn-link text-black text-decoration-none" href="#"
+                <div class="col-3"><a class="btn-link text-muted text-decoration-none" href="#"
                         onclick="return show('page2','page1');">Suivant</a>
                 </div>
             </div>
@@ -173,101 +177,119 @@
                         class="btn shadow btn-outline-dark border-0 rounded-5 warning mt-3 d-block text-center w-50 m-auto p-4">NON</a>
                 </p>
             </div>
-
-            <div class="row py-4">
-                <p class="text-center text-muted display-6">Calculez votre devis en X étapes</p>
-            </div>
         </div>
-        <!-- page 2 -->
+
+
+        <!-- ********************************************************** page 2 -->
         <div id="page2" style="display:none" class="h-75 container ">
-            <div class="row mt-5">
+            <div class="row mt-3 pt-4">
+                <p class="text-center text-muted display-6">lorem...</p>
+            </div>
+
+            <div class="row mt-2">
                 <div class="col-3">
                     <a href="#" onclick="return show('page1','page2');"
-                        class="btn-link text-black text-decoration-none">Précédent</a>
+                        class="btn-link text-muted text-decoration-none ">Précédent</a>
                 </div>
                 <div class="col-6">
-                    <p class="text-center mb-2">Etape 2/3</p>
+                    <p class="text-center mb-2 text-muted">Etape 2/3</p>
                 </div>
                 <div class="col-3">
                     <a href="#" onclick="return show('page3','page2');"
-                        class="btn-link text-black text-decoration-none">Suivant</a>
+                        class="btn-link text-muted text-decoration-none">Suivant</a>
                 </div>
             </div>
 
+            <section class="row py-4">
+                <div class="col-12">
+                    <h2 class="display-6 text-center mb-4">Choisissez les prestations dont vous avez besoin</h2>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                        <h3 class="card-title">Visibilité Web</h3>
+                        <form action="">
+                            <div class="form-group">
+
+                                <div class="form-check">
+                                    <input type="checkbox" name="static" class="checkbox form-check-input" id="static"
+                                        class="checkbox" value="static">
+                                    <label for="static" class="form-check-label">Site statique one page</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" name="wordpress" id="wordpress" value="wordpress"
+                                        class="checkbox form-check-input">
+                                    <label for="wordpress" class="form-check-label">Site +
+                                        blog</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" name="specific" id="specific" value="specific"
+                                        class="checkbox form-check-input">
+                                    <label for="specific" class="form-check-label">Site spécifique et/ou
+                                        e-commerce</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" name="audit" id="audit" value="audit"
+                                        class="checkbox form-check-input">
+                                    <label for="audit" class="form-check-label">Refonte d'un site existant</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ********************************************************* page 3 -->
+
+        <div id="page3" style="display:none" class="container h-75">
+
+            <div class="row mt-3 pt-4">
+                <p class="text-center text-muted display-6">...ipsum</p>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-3">
+                    <a href="#" onclick="return show('page2','page3');"
+                        class="btn-link text-muted text-decoration-none">Revenir</a>
+                </div>
+                <div class="col-6">
+                    <p class="text-center mb-2 text-muted">Etape 3/3</p>
+                </div>
+                <div class="col-3"></div>
+            </div>
 
             <section class="row py-4">
-                <h2 class="display-6 text-center mb-4">De quelles prestations avez vous besoin?</h2>
-
-                <form action="">
-                    <div class="form-group">
-
-                        <div class="form-check">
-                            <input type="checkbox" name="static" class="checkbox form-check-input" id="static"
-                                class="checkbox" value="static">
-                            <label for="static" class="form-check-label">Static website</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" name="wordpress" id="wordpress" value="wordpress"
-                                class="checkbox form-check-input">
-                            <label for="wordpress" class="form-check-label">wordpress website</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" name="specific" id="specific" value="specific"
-                                class="checkbox form-check-input">
-                            <label for="specific" class="form-check-label">specific website</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" name="audit" id="audit" value="audit"
-                                class="checkbox form-check-input">
-                            <label for="audit" class="form-check-label">audit of existing website</label>
-                        </div>
-                    </div>
-                </form>
-            </section>
-
-            <section class="row bg-light">
-                <h2>Détail de votre panier</h2>
-                <p id="listing"></p>
-
-                <h2>Prix total du panier</h2>
-                <p id="prixTotal"></p>
-            </section>
-
-            <section class="row">
                 <div class="col-6">
+                    <h3 class="display-6  mb-4">Vos choix</h3>
+                    <p id="listing"></p>
+                </div>
+
+                <div class="col-6">
+                    <h3 class="display-6 text-end mb-4">Votre estimation</h3>
+                    <p id="prixTotal" class="text-center display-6"></p>
+                </div>
+
+            </section>
+
+            <section class="row py-4">
+                <div class="col-12">
                     <form action="">
-                        <label for="email" class="form-label">Entrez votre email pour recevoir votre estimation</label>
+                        <label for="email" class="form-label">Entrez votre email pour garder votre estimation</label>
                         <input type="email" name="email" id="email" class="form-control" placeholder="Votre email">
-                        <a href="" id="recevoir" class="btn btn-danger my-2">Recevoir l'estimation</a>
+                        <a href="" id="recevoir" class="btn btn-danger my-2 d-block">Recevoir l'estimation</a>
                     </form>
                 </div>
-                <div class="col-3 text-center">
-                    <p>Nous contacter</p>
+                <div class="col-6 text-center">
                     <button id="contact" class="btn btn-secondary">Nous contacter</button>
                 </div>
-                <div class="col-3 text-center">
-                    <p>Nouvelle estimation</p>
-                    <button id="vider" class="btn btn-secondary">Vider le panier</button>
+                <div class="col-6 text-center">
+                    <button id="vider" class="btn btn-secondary"
+                        onclick="return show('page1','page3');">Recommencer</button>
                 </div>
             </section>
-
-        </div>
-
-        <div id="page3" style="display:none" class="row h-75">
-            <p>Content of page 3</p>
-            <a href="#" onclick="return show('page2','page3');">Précédent</a>
         </div>
         </div>
 
-
-        <!-- simulateur Page 1 -->
-
-
-        <!-- calculateur page 2 -->
-        <div id="calculateur2">
-
-
-        </div>
 
         <!-- nos services -->
         <section class="album py-5 bg-light">
